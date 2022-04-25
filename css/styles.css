@@ -99,7 +99,6 @@ header {
 }
 
 /* Nav bar */
-
 header nav {
     display: flex;
     flex-direction: row;
@@ -180,4 +179,55 @@ header nav {
     color: #E5E7EB;
     font-size: 1rem;
     font-weight: 100;
+}
+
+
+/* ------------ */
+/* Main Content */
+/* ------------ */
+
+/* Page links */
+.main-section-page-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-block: 3rem;
+}
+
+.main-section-page-links h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+}
+
+.page-link-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.page-link-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.page-link-card-item h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #1F2937;
+}
+
+.page-link-card-item img{
+    height: 10rem;
+}
+
+.page-link-card-item p{
+    font-size: 1rem;
+    font-weight: 300;
 }
