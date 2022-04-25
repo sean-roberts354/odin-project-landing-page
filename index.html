@@ -11,32 +11,37 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div>
-                <img src="img/logo.svg" alt="Company Logo">
+            <div class="header-logo">
+                <i class="fa-solid fa-knife-kitchen"></i>
                 <p>Recipes</p>
             </div>
-            <div>
+            <div class="header-nav-links">
                 <a href="">Beef Goulash</a>
                 <a href="">Pizza Dough</a>
                 <a href="">Chicken Tagine</a>
             </div>
         </nav>
-        <div>
-            <div>
+        <div class="hero-container">
+            <div class="hero-text">
                 <h1>Some delicous recipes</h1>
                 <p>Here's a collection of some recipes I've recently made which I find delicous and easy to make. Click
                     below to recieve notifications whenever I add more!</p>
-                <button>Notify Me</button>
+                <!-- This button is wrapped in a div because it is a flex-item and was originally growing to fill the entire space -->
+                <div>
+                    <button>Notify Me</button>
+                </div>
             </div>
-            <div>
+            <div class="hero-img">
                 <img src="img/jason-briscoe-kitchen-unsplash.jpg" alt="Photo of kitchen">
-                <p>Photo by Jason Briscoe on Unsplash</p>
             </div>
         </div>
     </header>
