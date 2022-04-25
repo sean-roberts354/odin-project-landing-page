@@ -72,3 +72,19 @@ select {
         scroll-behavior: auto !important;
     }
 }
+
+
+
+/* Temporary image resize to make page readable */
+img {
+    width: 200px;
+}
+
+body {
+    margin-inline: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav {
+    background-color: #1F2937;
+}
