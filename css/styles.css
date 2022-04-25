@@ -75,19 +75,11 @@ select {
 
 
 
-/* Temporary image resize to make page readable */
-/* img {
-    width: 200px;
-}
- */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Give all children of body padding to avoid re-declaring it for each child */
-body > * {
-    padding-inline: 10rem;
-}
 
 /* -------------- */
 /* Header Section */
@@ -96,6 +88,7 @@ body > * {
 header {
     background-color: #1F2937;
     padding-block: 1rem;
+    padding-inline: 10rem;
 }
 
 /* Nav bar */
@@ -194,6 +187,7 @@ header nav {
     justify-content: center;
     gap: 1rem;
     padding-block: 3rem;
+    padding-inline: 10rem;
 }
 
 .main-section-page-links h2 {
@@ -230,4 +224,30 @@ header nav {
 .page-link-card-item p{
     font-size: 1rem;
     font-weight: 300;
+}
+
+/* Quote Block */
+.main-section-quoteblock {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3rem;
+    padding-inline: 10rem;
+    gap: 0.2rem;
+    color: #1F2937
+}
+
+.main-section-quoteblock .quote {
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.main-section-quoteblock .author {
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
 }
