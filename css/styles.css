@@ -251,3 +251,34 @@ header nav {
     font-weight: 700;
     font-size: 1rem;
 }
+
+/* Call to action */
+.main-section-call-to-action {
+    padding: 3rem 10rem;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    border-radius: 10px;
+}
+
+.call-to-action-container .left p{
+    color: #F9FAF8;
+}
+
+.call-to-action-container .right button {
+    color: #F9FAF8;
+    font-size: 1rem;
+    font-weight: 500;
+    border: solid 3px #f9faf8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 0.5rem;
+    cursor: pointer;
+}
