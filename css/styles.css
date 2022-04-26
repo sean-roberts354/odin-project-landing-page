@@ -266,6 +266,8 @@ header nav {
     justify-content: center;
     gap: 3.5rem;
     border-radius: 10px;
+    max-width: 50rem;
+    margin-inline: auto;
 }
 
 .call-to-action-container .left p{
