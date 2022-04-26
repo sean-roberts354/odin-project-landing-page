@@ -218,7 +218,10 @@ header nav {
 }
 
 .page-link-card-item img{
-    height: 10rem;
+    height: 9rem;
+    aspect-ratio: 4 / 3;
+    border: solid 3px #3882F6;
+    border-radius: 5px;
 }
 
 .page-link-card-item p{
@@ -278,7 +281,7 @@ header nav {
     color: #F9FAF8;
     font-size: 1rem;
     font-weight: 500;
-    border: solid 3px #F9FAF8;
+    border: solid 2px #F9FAF8;
     border-radius: 5px;
     background-color: #3882F6;
     padding: 0.5rem;
